@@ -13,7 +13,7 @@ import com.fasterxml.jackson.module.kotlin.readValue
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class TimeEndpointMockMvcTest {
+class TimeEndpointTest {
     @Autowired
     private lateinit var mockMvc: MockMvc
 
